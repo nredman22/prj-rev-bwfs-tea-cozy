@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* Header style*/
+header {
+    display: flex;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    background-color: inherit;
+}
+
+nav a {
+    color: inherit;
+}
+
+nav span {
+    padding: 10px;
+}
+
+#logo  img{
+    height: 50px;
+    padding-left: 10px;
+}
+
+/*Main Conten*/
+
+.main {
+    display: flex;
+    position: relative;
+    top: 70px;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Mission content*/
+#mission {
+    display: flex;
+    background-image: url("../images/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+}
+
+.mission-content {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.mission-content h2, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+
+/*Featured items*/
+#headline {
+    text-align: center;
+    padding-top: 70px;
+}
+
+#featured {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.items img {
+    height: 200px;
+}
+
+.items {
+    text-align: center;
+    padding: 15px;
+}
+
+/*Location*/
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 70px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.locations h2 {
+    margin-bottom: 15px;
+}
+
+.location {
+    background-color: black;
+    opacity: 1;
+    display: inline-block;
+    width: 300px;
+    margin: 5px 20px;
+}
+.locations p {
+    padding: 10px;
+}
+
+
+/*Footer*/
+footer {
+    width: 100%;
+}
+.contact {
+    height: 200px;
+    text-align: center;
+}
+
+.copyright {
+    padding-left: 10px;
+    font-size: 18px;
+}
